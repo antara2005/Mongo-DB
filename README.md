@@ -15,16 +15,18 @@ The goal is to:
 ## ✅ Steps to Completion
 
 1️⃣ MongoDB Atlas
-To begin, one needs to create an account on MongoDB Atlas, a cloud-based NoSQL database service. After signing up, a free cluster can be set up, which serves as the environment for hosting the database. Once the cluster is ready, the connection string should be retrieved — this is essential for connecting other tools like Java or DataGrip to the database.
+To begin, we created an account on MongoDB Atlas, a cloud-based NoSQL database service. After registering, we set up a free cluster, which serves as our database environment. Once the cluster was ready, we obtained the connection string, which is necessary for connecting MongoDB to external tools like Java and DataGrip.
 
 2️⃣ Java Setup
-Next, someone should set up the Java environment. This involves adding the MongoDB Java Driver to the project to enable communication with the database. After that, a new Java project can be created, and the connection to MongoDB can be established through code. This setup allows one to interact with the database — inserting, retrieving, or searching for data.
+Next, we set up our Java environment. We added the MongoDB Java Driver to our project, enabling Java to communicate with MongoDB. Then, we created a new Java project and wrote the code needed to establish a connection with the MongoDB cluster. This allowed us to interact with the database, including adding, reading, and searching for data.
 
 3️⃣ DataGrip Setup
-In this step, one should install DataGrip, a visual database management tool. Using the connection string, someone can connect DataGrip to the MongoDB cluster. Once connected, it's possible to browse collections, view documents, and manage the database through a user-friendly interface.
+In this step, we installed DataGrip, a powerful tool for managing databases visually. Using the connection string from MongoDB Atlas, we connected DataGrip to our MongoDB cluster. With the connection in place, we were able to browse our collections, view documents, and manage data easily through the graphical interface.
 
 4️⃣ Video Data Management
-Finally, a video collection needs to be created in the MongoDB database. After defining the structure, 15 video entries should be added with details such as title, genre, and duration. To improve usability, sorting and search functionality can be implemented, allowing users to quickly find or organize videos based on specific criteria.
+Finally, we created a video collection in our MongoDB database. We added 15 video entries with relevant information like title, genre, and duration. To make the collection more functional, we implemented sorting and search features, allowing users to organize and find videos efficiently based on different criteria.
+
+
 
 ------------------------------------------------------------
 
