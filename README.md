@@ -15,36 +15,16 @@ The goal is to:
 ## ✅ Steps to Completion
 
 1️⃣ MongoDB Atlas
-
-🔹 Create an account on MongoDB Atlas
-
-🔹 Set up a free cluster
-
-🔹 Obtain the connection string
+To begin, one needs to create an account on MongoDB Atlas, a cloud-based NoSQL database service. After signing up, a free cluster can be set up, which serves as the environment for hosting the database. Once the cluster is ready, the connection string should be retrieved — this is essential for connecting other tools like Java or DataGrip to the database.
 
 2️⃣ Java Setup
-
-🔸 Use the MongoDB Java Driver
-
-🔸 Create a new Java project
-
-🔸 Connect and interact with MongoDB
+Next, someone should set up the Java environment. This involves adding the MongoDB Java Driver to the project to enable communication with the database. After that, a new Java project can be created, and the connection to MongoDB can be established through code. This setup allows one to interact with the database — inserting, retrieving, or searching for data.
 
 3️⃣ DataGrip Setup
-
-🔹 Install DataGrip
-
-🔹 Connect to your MongoDB cluster
-
-🔹 Browse and manage data visually
+In this step, one should install DataGrip, a visual database management tool. Using the connection string, someone can connect DataGrip to the MongoDB cluster. Once connected, it's possible to browse collections, view documents, and manage the database through a user-friendly interface.
 
 4️⃣ Video Data Management
-
-🔸 Create a video collection
-
-🔸 Add 15 video entries
-
-🔸 Implement sorting and search features
+Finally, a video collection needs to be created in the MongoDB database. After defining the structure, 15 video entries should be added with details such as title, genre, and duration. To improve usability, sorting and search functionality can be implemented, allowing users to quickly find or organize videos based on specific criteria.
 
 ------------------------------------------------------------
 
